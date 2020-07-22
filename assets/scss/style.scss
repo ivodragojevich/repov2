@@ -1,0 +1,42 @@
+$negro: black;
+$blanco: white;
+$mont: 'Montserrat', sans-serif;
+$font18: 18px;
+$font40: 40px;
+$bebas: 'Bebas Neue', cursive;
+$tcenter: center;
+$f-bold: bold;
+
+
+body {
+    background-color: $blanco;
+    font-family: $mont;
+    font-size: $font18;
+}
+
+h1 {
+    color: $negro;
+    font-family: $bebas;
+    text-align: $tcenter;
+    font-size: $font40;
+}
+
+h2 {
+    color: $negro;
+    text-align: $tcenter;
+    font-style: $f-bold;
+    font-family: $bebas;
+}
+
+h3 {
+    color: $negro;
+}
+
+p {
+    color: $negro;
+    font-size: $font18;
+}
+
+ul li {
+    font-family: $bebas;
+}

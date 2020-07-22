@@ -1,0 +1,455 @@
+/*----- Estilo etiquetas -----*/
+body {
+    background-color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+}
+
+h1 {
+    color: black;
+    font-family: "Bebas Neue", cursive;
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    font-style: bold;
+    font-family: "Bebas Neue", cursive;
+}
+
+h3 {
+    color: black;
+}
+
+p {
+    color: black;
+    font-size: 18px;
+}
+
+ul li {
+    font-family: "Bebas Neue", cursive;
+}
+
+hr {
+    height: 10px;
+    background-color: black;
+}
+
+footer {
+    background-color: #212121;
+    color: white;
+    margin-top: 30px;
+}
+
+/*--------------------------------------------*/
+
+/*----- Estilo clases -----*/
+/*Clases index.html*/
+/*Menu*/
+.navbar.navbar-1 .navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger6.svg?color=000');
+}
+
+/*Jumbotron*/
+.jumbotron h1 {
+    font-size: 45px;
+    color: white;
+}
+
+.jumbotron p {
+    font-size: 25px;
+    color: white;
+}
+
+/*Animacion h1*/
+.focus-in-expand {
+    -webkit-animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes focus-in-expand {
+    0% {
+        letter-spacing: -0.5em;
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes focus-in-expand {
+    0% {
+        letter-spacing: -0.5em;
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+/*Clases novedades.html*/
+.items {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.items h3 {
+    text-decoration: underline;
+}
+
+.img-res {
+    width: 100%;
+    border: solid 5px black;
+}
+
+/*Animaciones img novedades.html*/
+.tilt-in-fwd-tr {
+    -webkit-animation: tilt-in-fwd-tr 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: tilt-in-fwd-tr 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes tilt-in-fwd-tr {
+    0% {
+        -webkit-transform: rotateY(20deg) rotateX(35deg) translate(300px, -300px) skew(-35deg, 10deg);
+        transform: rotateY(20deg) rotateX(35deg) translate(300px, -300px) skew(-35deg, 10deg);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: rotateY(0) rotateX(0deg) translate(0, 0) skew(0deg, 0deg);
+        transform: rotateY(0) rotateX(0deg) translate(0, 0) skew(0deg, 0deg);
+        opacity: 1;
+    }
+}
+
+@keyframes tilt-in-fwd-tr {
+    0% {
+        -webkit-transform: rotateY(20deg) rotateX(35deg) translate(300px, -300px) skew(-35deg, 10deg);
+        transform: rotateY(20deg) rotateX(35deg) translate(300px, -300px) skew(-35deg, 10deg);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: rotateY(0) rotateX(0deg) translate(0, 0) skew(0deg, 0deg);
+        transform: rotateY(0) rotateX(0deg) translate(0, 0) skew(0deg, 0deg);
+        opacity: 1;
+    }
+}
+
+/*Clases productos.html*/
+.scrollspy-example {
+    height: 360px;
+}
+
+/*TEST PRODUCTOS*/
+.admin-sidenav {
+    width: auto;
+    height: auto;
+    margin-left: 0px;
+}
+
+.admin-sidenav a {
+    text-decoration: none;
+}
+
+.admin-sidenav li {
+    text-align: justify;
+    padding: .5rem;
+    padding-left: 1rem;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+    background-color: #000;
+    border: 1px solid #333;
+}
+
+.admin-sidenav li a {
+    color: #fff;
+}
+
+.admin-sidenav li a:active {
+    border-color: #02d3f5;
+}
+
+.admin-sidenav li:hover {
+    border-radius: 0 .5rem .5rem 0;
+    border-color: #02d3f5;
+    -webkit-transform: translate(30px, 0px);
+    transform: translate(30px, 0px);
+    background: -webkit-linear-gradient(left, #006a7b, #002340);
+    background: linear-gradient(to right, #006a7b, #002340);
+}
+
+.admin-sidenav li:active {
+    border-color: #02d3f5;
+}
+
+/* Img productos */
+.img-border img {
+    border: solid 5px black;
+}
+
+#cierres {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#lanas {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#botones {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hilos {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Transform img */
+.img-border img {
+    transition: transform 0.5s;
+}
+
+.img-border img:hover {
+    transform: scale(1.5);
+}
+
+/* Clases contacto */
+
+#contact .well {
+    margin-top: 30px;
+    border-radius: 0;
+}
+
+#contact .form-control {
+    border-radius: 0;
+    border: 2px solid #1e1e1e;
+}
+
+#contact button {
+    border-radius: 0;
+    border: 2px solid #1e1e1e;
+}
+
+#contact .row {
+    margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+    #contact iframe {
+        margin-bottom: 15px;
+    }
+
+}
+
+/*panel*/
+.panel {
+    border: none;
+    box-shadow: none;
+}
+
+.panel-heading {
+    border-color: #eff2f7;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.panel-title {
+    color: #2A3542;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*product list*/
+
+.prod-cat li a {
+    border-bottom: 1px dashed #d9d9d9;
+}
+
+.prod-cat li a {
+    color: #3b3b3b;
+}
+
+.prod-cat li ul {
+    margin-left: 30px;
+}
+
+.prod-cat li ul li a {
+    border-bottom: none;
+}
+
+.prod-cat li ul li a:hover,
+.prod-cat li ul li a:focus,
+.prod-cat li ul li.active a,
+.prod-cat li a:hover,
+.prod-cat li a:focus,
+.prod-cat li a.active {
+    background: none;
+    color: #ff7261;
+}
+
+.pro-lab {
+    margin-right: 20px;
+    font-weight: normal;
+}
+
+.pro-sort {
+    padding-right: 20px;
+    float: left;
+}
+
+.pro-page-list {
+    margin: 5px 0 0 0;
+}
+
+.product-list img {
+    width: 100%;
+    border-radius: 4px 4px 0 0;
+    -webkit-border-radius: 4px 4px 0 0;
+}
+
+.product-list .pro-img-box {
+    position: relative;
+}
+
+.adtocart {
+    background: #fc5959;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    border: 3px solid #fff;
+    left: 45%;
+    bottom: -25px;
+    position: absolute;
+}
+
+.adtocart i {
+    color: #fff;
+    font-size: 25px;
+    line-height: 42px;
+}
+
+.pro-title {
+    color: #5A5A5A;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.product-list .price {
+    color: #fc5959;
+    font-size: 15px;
+}
+
+.pro-img-details {
+    margin-left: -15px;
+}
+
+.pro-img-details img {
+    width: 100%;
+}
+
+.pro-d-title {
+    font-size: 16px;
+    margin-top: 0;
+}
+
+.product_meta {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+    margin: 15px 0;
+}
+
+.product_meta span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.product_meta a,
+.pro-price {
+    color: #fc5959;
+}
+
+.pro-price,
+.amount-old {
+    font-size: 18px;
+    padding: 0 10px;
+}
+
+.amount-old {
+    text-decoration: line-through;
+}
+
+.quantity {
+    width: 120px;
+}
+
+.pro-img-list {
+    margin: 10px 0 0 -15px;
+    width: 100%;
+    display: inline-block;
+}
+
+.pro-img-list a {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.pro-d-head {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.rotate-vert-center:hover {
+    animation: rotate-vert-center .5s cubic-bezier(.455, .03, .515, .955) both
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2020-7-18 16:7:11
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+@keyframes rotate-vert-center {
+    0% {
+        transform: rotateY(0)
+    }
+
+    100% {
+        transform: rotateY(360deg)
+    }
+}
